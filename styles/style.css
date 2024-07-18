@@ -38,3 +38,47 @@ nav h3 {
     border-radius: 36px;
     padding: 2px 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+    nav h3 {
+        font-size: 26px;
+    }
+    .ham-burger {
+        display: block;
+        align-items: center;
+    }
+    .nav-bar, .nav-items {
+        padding: 0.5rem 0.8rem;
+    }
+    .nav-items {
+        display: none;
+    }
+}
