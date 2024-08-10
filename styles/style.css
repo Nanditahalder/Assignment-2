@@ -440,4 +440,15 @@ hr{
         margin-top: -30px;
     
     }
+    footer {
+        padding: 30px 30px;
+        background-color: rgb(255, 255, 255 , 0.1);
+        backdrop-filter: blur(5px);
+    }
+    .footer {
+       flex-direction: column;
+    }
+    .footer-items {
+        margin-left: -120px;
+    }
 }
